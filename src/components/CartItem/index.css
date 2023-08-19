@@ -1,6 +1,11 @@
 .cart-item {
   display: flex;
   align-items: center;
+  list-style-type: none;
+}
+.cart-items-container {
+  display: flex;
+  align-items: center;
   background-color: #ffffff;
   padding: 16px;
   margin-bottom: 16px;
@@ -14,7 +19,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .cart-item {
+  .cart-items-container {
     padding-left: 36px;
     padding-top: 24px;
     padding-bottom: 24px;

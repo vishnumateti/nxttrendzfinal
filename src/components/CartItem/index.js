@@ -33,7 +33,7 @@ const CartItem = props => (
           {quantity <= 0 ? (
             onRemoveCartItem()
           ) : (
-            <div>
+            <div className="cart-items-container">
               <img className="cart-product-image" src={imageUrl} alt={title} />
               <div className="cart-item-details-container">
                 <div className="cart-product-title-brand-container">

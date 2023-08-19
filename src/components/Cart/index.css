@@ -16,6 +16,14 @@
   width: 90%;
   max-width: 1110px;
 }
+.remove-all-button {
+  border: 0px none transparent;
+  background-color: transparent;
+  outline: none;
+  color: #0b69ff;
+  font-family: 'Roboto';
+  text-align: end;
+}
 
 @media screen and (min-width: 768px) {
   .cart-content-container {
